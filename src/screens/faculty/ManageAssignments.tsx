@@ -236,7 +236,8 @@ export const ManageAssignments: React.FC = () => {
             <View className="items-center justify-center py-12">
               <Text style={{ color: colors.textMuted }} className="text-sm font-semibold">No submissions to grade.</Text>
             </View>
-          )}
+          )
+        )}
       </ScrollView>
     </SafeAreaView>
   );
